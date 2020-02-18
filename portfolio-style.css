@@ -1,0 +1,51 @@
+
+.portfolio {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid rgba(0, 0, 0, .25);
+    margin: 20px;
+}
+
+.portfolio img {
+    width: 100%;
+    transition: all .5s;
+}
+
+.portfolio:hover img {
+    transform: scale(1.5) rotate(15deg);
+}
+
+.portfolio .btn-primary:not(:hover) {
+    background: rgba(0, 0, 0, .4);
+}
+
+
+
+.portfolio .port-desc {
+    opacity: 0;
+    background: rgba(0, 0, 0, .5);
+    transition: all .25s;
+    color: #f8f8f8;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+}
+
+.portfolio .port-desc p {
+    width: 85%;
+    margin: 30px auto 25px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.portfolio:hover .port-desc {
+    opacity: 1;
+}
+
+
+.portfolio-additional-text {
+    font-weight: 300;
+    margin-top: 10px;
+}
