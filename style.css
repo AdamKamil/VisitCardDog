@@ -33,6 +33,10 @@ a:hover {
     margin-top: 100px;
 }
 
+.introduction img {
+    width: 50%;
+}
+
 .introduction h1 {
     font-weight: 600;
     display: inline;
