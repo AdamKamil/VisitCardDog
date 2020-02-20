@@ -187,7 +187,6 @@ transform: scale(1.4);
 .icons ul{
     display:flex;
     flex-flow: row;
-    justify-content: space-around;
     list-style-type: none;
     padding-inline-start: 0px;
 }
@@ -197,34 +196,8 @@ color: #f8f8f8;
 transition: 0.5s;
 }
 
-
-
-
-.contact-form label {
-    font-weight: 300;
-    font-size: 16px;
-}
-
-.contact-form .form-control {
-    border-radius: 0;
-    resize: none;
-    font-family: inherit;
-    margin-bottom: 10px;
-}
-
-.contact-form textarea.form-control {
-    height: 111px;
-}
-
-.contact-form button {
-    width: auto;
-    display: display-block;
-}
-
-.contact-form .form-control:focus {
-    border-color: #08087e;
-    box-shadow: none;
-    border-width: 2px;
+iframe {
+margin: 0 auto;
 }
 
 
