@@ -23,6 +23,12 @@
     font-weight: 600;
 }
 
+.logo a {
+    color: #000;
+    font-size: 18px;
+    font-style: italic;
+}
+
 .logo a:hover,
 .logo a:focus {
     color: #f8f8f8;
