@@ -24,14 +24,24 @@
 }
 
 .logo a {
-    color: #000;
-    font-size: 18px;
+    color: #f8f8f8;
+    font-size: 12px;
     font-style: italic;
 }
 
 .logo a:hover,
 .logo a:focus {
+    color: #111111;
+    font-style: italic;
+    transition: all .5s;
+}
+
+.logo .navbar-brand:hover,
+.logo .navbar-brand:focus {
     color: #f8f8f8;
+    font-size: 28px;
+    font-weight: 600;
+    transition: all .5s;
 }
 
 .menu li{
