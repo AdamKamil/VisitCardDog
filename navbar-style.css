@@ -12,9 +12,6 @@
 }
 
 
-.logo {
-    margin: 3px;
- }
 
 .logo .navbar-brand
 {
@@ -23,14 +20,14 @@
     font-weight: 600;
 }
 
-.logo a {
+.language a {
     color: #f8f8f8;
-    font-size: 12px;
+    font-size: 15px;
     font-style: italic;
 }
 
-.logo a:hover,
-.logo a:focus {
+.language a:hover,
+.language a:focus {
     color: #111111;
     font-style: italic;
     transition: all .5s;

@@ -27,15 +27,15 @@ a:hover {
 }
 
 .introduction {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 21px;
     font-weight: 300;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 .introduction img {
     width: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .introduction h1 {
