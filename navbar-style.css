@@ -15,10 +15,11 @@
 
 .logo .navbar-brand
 {
-    color: #000;
+    color:white;
     font-size: 28px;
     font-weight: 600;
 }
+
 
 .language img {
 height: 15px;
@@ -39,11 +40,12 @@ height: 15px;
 
 .logo .navbar-brand:hover,
 .logo .navbar-brand:focus {
-    color: #f8f8f8;
+    color: black;
     font-size: 28px;
     font-weight: 600;
     transition: all .5s;
 }
+
 
 .menu li{
     padding: 10px 0px;

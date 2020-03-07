@@ -9,6 +9,7 @@ a:hover {
     text-decoration: none;
 }
 
+
 .first-section {
     background: rgb(48, 44, 44) url(https://www.tenten.pl/wp-content/uploads/2019/03/Legowiskabaner1.jpeg) top no-repeat;
     background-size: cover;
@@ -20,7 +21,6 @@ a:hover {
 
 .first-section .container {
     height: 90vh;
-    width: 380px;
     background: rgb(50, 47, 51);
     position: fixed;
     margin-left: 0px;
@@ -111,7 +111,7 @@ a:hover {
 }
 
 .dark-section {
-    background:  rgb(50, 47, 51);
+    background: rgb(50, 47, 51);
     color: #f8f8f8;
 
 }
@@ -133,31 +133,6 @@ a:hover {
     margin: 0 auto;
 }
 
-.skills {
-    text-align: center;
-}
-
-.skills-bigger {
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.skills li {
-    font-size: 20px;
-    display: inline-block;
-    font-weight: 700;
-
-}
-
-.skills li:nth-of-type(even) {
-    color: rgb(89, 74, 95);
-}
-
-.skills li:nth-of-type(odd) {
-    color: #f8f8f8;
-    text-shadow: 1px 1px rgb(89, 74, 95);
-}
-
 
 .icons .fa:hover {
     transform: scale(1.4);
@@ -173,6 +148,7 @@ a:hover {
 .offer h3 {
     font-weight: 300;
     margin-bottom: 25px;
+    font-size: 20px;
 }
 
 .offer .fa {
@@ -183,51 +159,56 @@ a:hover {
 
 .offer img {
     display: block;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     border-radius: 10%;
     border: 4px solid #f8f8f8;
     box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
 }
 
-    .icons {
-        font-size: 40px;
-        color: #f8f8f8;
-    }
+.icons {
+    font-size: 40px;
+    color: #f8f8f8;
+}
 
-    .icons ul {
-        display: flex;
-        flex-flow: row;
-        list-style-type: none;
-        padding-inline-start: 0px;
-    }
+.icons ul {
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
 
-    .icons .fa {
-        color: #f8f8f8;
-        transition: 0.5s;
-    }
+.icons .fa {
+    color: #f8f8f8;
+    transition: 0.5s;
+}
 
-    .small {
-        font-size: 15px;
-    }
+.small {
+    font-size: 15px;
+}
 
-    iframe {
-        margin: 0 auto;
-    }
+.small ul {
+    list-style-type: none;
+    padding-inline-start: 5px;
+}
 
-
-    .bottom-section,
-    .bottom-section .container {
-        overflow: hidden;
-        padding: 20px 0;
-    }
+iframe {
+    margin: 0 auto;
+}
 
 
+.bottom-section,
+.bottom-section .container {
+    overflow: hidden;
+    padding: 20px 0;
+}
 
-    footer {
-        padding: 25px 0 15px;
-        position: absolute;
-        bottom: auto;
-        width: 100%;
-        height: auto;
-    }
+
+
+footer {
+    padding: 25px 0 15px;
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+    height: auto;
+}
