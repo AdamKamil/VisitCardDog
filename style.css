@@ -11,7 +11,7 @@ a:hover {
 
 
 .first-section {
-    background: rgb(48, 44, 44) url(img/baner1.jpeg) top no-repeat;
+    background: rgb(48, 44, 44) url("img/baner1.jpeg") top no-repeat;
     background-size: cover;
     position: relative;
     color: #f8f8f8;
